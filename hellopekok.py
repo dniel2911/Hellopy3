@@ -391,7 +391,7 @@ def helpmessage():
                     "╠ " + key + "SearchMusic 「Search」" + "\n" + \
                     "╠ " + key + "SearchLyric 「Search」" + "\n" + \
                     "╠ " + key + "SearchImage 「Search」" + "\n" + \
-                    "╚══[ Copyright @Zero-Cool404 ]"
+                    "╚══[ Copyright @Nugi.pekok ]"
     return helpMessage
 
 def helptexttospeech():
@@ -453,8 +453,8 @@ def helptexttospeech():
                         "╠ " + key + "uk : Ukrainian" + "\n" + \
                         "╠ " + key + "vi : Vietnamese" + "\n" + \
                         "╠ " + key + "cy : Welsh" + "\n" + \
-                        "╚══[ Copyright @Zero-Cool404 ]" + "\n" + "\n\n" + \
-                        "Contoh : " + key + "say-id Zero"
+                        "╚══[ Copyright @Nugi.pekok ]" + "\n" + "\n\n" + \
+                        "Contoh : " + key + "say-id nugi.pekok"
     return helpTextToSpeech
 
 def helptranslate():
@@ -569,8 +569,8 @@ def helptranslate():
                     "╠ " + key + "zu : zulu" + "\n" + \
                     "╠ " + key + "fil : Filipino" + "\n" + \
                     "╠ " + key + "he : Hebrew" + "\n" + \
-                    "╚══[ Copyright @Zero-Cool404 ]" + "\n" + "\n\n" + \
-                    "Contoh : " + key + "tr-id Zero"
+                    "╚══[ Copyright @Nugi.pekok ]" + "\n" + "\n\n" + \
+                    "Contoh : " + key + "tr-id nugi.pekok"
     return helpTranslate
 
 def clientBot(op):
@@ -1009,7 +1009,7 @@ def clientBot(op):
                                     for i in group.members[a*100 : (a+1)*100]:
                                         b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                                         s += 7
-                                        txt += u'@Zero \n'
+                                        txt += u'@Nugi \n'
                                     client.sendMessage(to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
                                     client.sendMessage(to, "Total {} Mention".format(str(len(nama))))  
                             elif cmd == "lurking on":
